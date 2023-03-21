@@ -1,0 +1,13 @@
+{
+	"powers": [
+		"fuz:bell",
+		"fuz:rabbit",
+		"fuz:armour",
+		"fuz:purple"
+	],
+	"icon": "minecraft:air",
+	"order": 10,
+	"impact": 0,
+	"name": "FUZ",
+	"description": "FUZ inspired origin"
+}

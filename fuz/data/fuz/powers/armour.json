@@ -1,0 +1,79 @@
+{
+    "type": "origins:multiple",
+
+    "head": {
+        "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:execute_command",
+    "command": "item replace entity @a armor.head with netherite_helmet{Enchantments:[{id:protection,lvl:4},{id:blast_protection,lvl:4},{id:fire_protection,lvl:4},{id:projectile_protection,lvl:4},{id:respiration,lvl:3},{id:aqua_affinity,lvl:1},{id:binding_curse,lvl:1},{id:unbreaking,lvl:3},{id:mending,lvl:1}]} 1"
+    },
+    "interval": 20,
+    "condition": {
+        "type": "origins:equipped_item",
+    "equipment_slot": "head",
+    "item_condition": {
+        "type": "origins:ingredient",
+    "ingredient": {
+        "item": "minecraft:air"
+    }
+    }
+    }
+    },
+
+    "chest": {
+        "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:execute_command",
+    "command": "item replace entity @a armor.chest with minecraft:netherite_chestplate{Enchantments:[{id:protection,lvl:4},{id:fire_protection,lvl:4},{id:_blast_protection,lvl:4},{id:projectile_protection,lvl:4},{id:binding_curse,lvl:1},{id:unbreaking,lvl:3},{id:mending,lvl:1}]} 1"
+    },
+    "interval": 20,
+    "condition": {
+        "type": "origins:equipped_item",
+    "equipment_slot": "chest",
+    "item_condition": {
+        "type": "origins:ingredient",
+    "ingredient": {
+        "item": "minecraft:air"
+    }
+    }
+    }
+    },
+    "legs": {
+        "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:execute_command",
+    "command": "item replace entity @a armor.legs with minecraft:netherite_leggings{Enchantments:[{id:protection,lvl:4},{id:swift_sneak,lvl:3},{id:fire_protection,lvl:4},{id:_blast_protection,lvl:4},{id:projectile_protection,lvl:4},{id:binding_curse,lvl:1},{id:unbreaking,lvl:3},{id:mending,lvl:1}]} 1"
+    },
+    "interval": 20,
+    "condition": {
+        "type": "origins:equipped_item",
+    "equipment_slot": "legs",
+    "item_condition": {
+        "type": "origins:ingredient",
+    "ingredient": {
+        "item": "minecraft:air"
+    }
+    }
+    }
+    
+    },"boot": {
+        "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:execute_command",
+    "command": "item replace entity @a armor.feet with minecraft:netherite_boots{Enchantments:[{id:protection,lvl:4},{id:fire_protection,lvl:4},{id:_blast_protection,lvl:4},{id:projectile_protection,lvl:4},{id:binding_curse,lvl:1},{id:unbreaking,lvl:3},{id:mending,lvl:1},{id:soul_speed,lvl:3},{id:feather_falling,lvl:4},{id:depth_strider,lvl:3}]} 1"
+    },
+    "interval": 20,
+    "condition": {
+        "type": "origins:equipped_item",
+    "equipment_slot": "feet",
+    "item_condition": {
+        "type": "origins:ingredient",
+    "ingredient": {
+        "item": "minecraft:air"
+    }
+    }
+    }
+    },
+	"name": "Hates Armour",
+	"description": "You hate wearing armour so you will be forced to wear it"
+}

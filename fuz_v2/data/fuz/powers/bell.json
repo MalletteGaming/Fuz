@@ -1,0 +1,22 @@
+{
+	"type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+    "actions": [
+        {
+            "type": "origins:execute_command",
+			"command": "execute at @s run effect give @e[type=minecraft:pillager,distance=..40] minecraft:glowing 10 0"
+        },
+        {    
+            "type": "origins:play_sound",
+			"sound": "minecraft:block.bell.use"
+        }
+    ]
+    },
+    "cooldown": 1,
+    "hud_render": {
+        "should_render": false
+    },
+	"name": "Bell",
+	"description": "You can always ring a bell"
+}

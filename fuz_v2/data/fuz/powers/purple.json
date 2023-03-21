@@ -1,0 +1,83 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:execute_command",
+    "command": "kill @s"
+
+    },
+    "interval": 20,
+    "condition": {
+        "type": "origins:block_in_radius",
+    "block_condition": {
+        "type": "origins:or",
+    "conditions": [
+        {
+            "type": "origins:block",
+            "block": "minecraft:amethyst_block"
+        },
+        {
+            "type": "origins:block",
+            "block": "minecraft:purple_bed"
+        },
+        {
+            "type": "origins:block",
+            "block": "minecraft:purple_concrete_powder"
+        },
+        {
+            "type": "origins:block",
+            "block": "minecraft:purple_stained_glass"
+        },
+        {
+            "type": "origins:block",
+            "block": "minecraft:purpur_slab"
+        },
+        {
+            "type": "origins:block",
+            "block": "minecraft:budding_amethyst"
+        },
+        {
+            "type": "origins:block",
+            "block": "minecraft:purple_carpet"
+        },
+        {
+            "type": "origins:block",
+            "block": "minecraft:purple_glazed_terracotta"
+        },
+        {
+            "type": "origins:block",
+            "block": "minecraft:purple_stained_glass_pane"
+        },
+        {
+            "type": "origins:block",
+            "block": "minecraft:purpur_block"
+        },
+        {
+            "type": "origins:block",
+            "block": "minecraft:crying_obsidian"
+        },
+        {
+            "type": "origins:block",
+            "block": "minecraft:purple_concrete"
+        },
+        {
+            "type": "origins:block",
+            "block": "minecraft:purple_shulker_box"
+        },
+        {
+            "type": "origins:block",
+            "block": "minecraft:purple_terracotta"
+        },
+        {
+            "type": "origins:block",
+            "block": "minecraft:purpur_pillar"
+        }
+    ]
+    },
+    "radius": 1,
+    "shape": "cube",
+    "comparison": ">=",
+    "compare_to": 1
+    },
+	"name": "Purple",
+	"description": "You don't like purple, if you touch a purple block you die"
+}

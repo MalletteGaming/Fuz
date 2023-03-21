@@ -1,0 +1,13 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+            "type": "origins:execute_command",
+			"command": "execute as @s at @s if entity @e[type=minecraft:rabbit, distance=..30] run effect give @s minecraft:strength 5 1"
+    },
+    "interval": 20,
+    "condition": {
+        "type": "origins:exists"
+    },
+	"name": "Hates Rabbits",
+	"description": "Your hatred of rabbits make you strong near them"
+}
